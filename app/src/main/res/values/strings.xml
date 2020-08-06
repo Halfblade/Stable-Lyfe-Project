@@ -11,4 +11,6 @@
     <string name="shopping_around_stablers_home_page">Shopping Around</string>
     <string name="training_stablers_home_page">Training</string>
     <string name="finding_vets_trainers_farriers_stablers_home_page">Finding Vets/Trainers/Farriers</string>
+    <string name="sign_up_with_email_sign_up_choice_screen">Sign up with email</string>
+    <string name="sign_up_with_google_sign_up_choice_screen">Sign up with google</string>
 </resources>
