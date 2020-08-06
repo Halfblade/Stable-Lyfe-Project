@@ -6,4 +6,7 @@
     <string name="remember_me_login_screen">Remember Me</string>
     <string name="login_button_login_screen">Login</string>
     <string name="sign_up_button_login_screen">Sign Up</string>
+    <string name="my_barn_stablers_home_page">My Barn</string>
+    <string name="add_remove_horses_stablers_home_page">Add/Remove Horses</string>
+    <string name="shopping_around_stablers_home_page">Shopping Around</string>
 </resources>
