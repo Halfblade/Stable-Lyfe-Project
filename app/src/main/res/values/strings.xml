@@ -9,4 +9,6 @@
     <string name="my_barn_stablers_home_page">My Barn</string>
     <string name="add_remove_horses_stablers_home_page">Add/Remove Horses</string>
     <string name="shopping_around_stablers_home_page">Shopping Around</string>
+    <string name="training_stablers_home_page">Training</string>
+    <string name="finding_vets_trainers_farriers_stablers_home_page">Finding Vets/Trainers/Farriers</string>
 </resources>
