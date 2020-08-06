@@ -14,7 +14,6 @@
     <string name="sign_up_with_email_sign_up_choice_screen">Sign up with email</string>
     <string name="sign_up_with_google_sign_up_choice_screen">Sign up with google</string>
     <string name="username_create_login_with_email">Username</string>
-    <string name="username_create_login_with_email">Username</string>
     <string name="email_create_login_with_email">Email</string>
     <string name="password_create_login_with_email">Password</string>
     <string name="re_enter_password_create_login_with_email">Re-enter Password</string>
