@@ -15,7 +15,7 @@ class CreateLoginWithEmail : AppCompatActivity() {
 
 
         buttonSignUpWithEmail.setOnClickListener{
-            val intent = Intent(this, StablersHomePage::class.java)
+            val intent = Intent(this, OwnersHomePage::class.java)
 
             startActivity(intent)
         }

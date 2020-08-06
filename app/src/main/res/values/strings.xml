@@ -21,4 +21,9 @@
     <string name="horse_owner_check_box_create_login_with_email">Horse Owner</string>
     <string name="stabler_check_box_create_login_with_email">Stabler</string>
     <string name="sign_up_button_create_login_with_email">Sign Up</string>
+    <string name="my_horse_owners_home_page">My Horse</string>
+    <string name="check_in_horse_owners_home_page">Check In Horse</string>
+    <string name="shopping_around_owners_home_page">Shopping Around</string>
+    <string name="training_owners_home_page">Training</string>
+    <string name="finding_vets_trainers_farriers_owners_home_page">Finding Vets/Trainers/Farriers</string>
 </resources>
