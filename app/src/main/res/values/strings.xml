@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Stable Lyfe</string>
+    <string name="stable_lyfe_logo_login_screen">Stable Lyfe</string>
+    <string name="email_address_login_screen">Email Address</string>
+    <string name="password_login_screen">Password</string>
+    <string name="remember_me_login_screen">Remember Me</string>
+    <string name="login_button_login_screen">Login</string>
+    <string name="sign_up_button_login_screen">Sign Up</string>
+</resources>
