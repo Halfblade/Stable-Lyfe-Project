@@ -13,4 +13,12 @@
     <string name="finding_vets_trainers_farriers_stablers_home_page">Finding Vets/Trainers/Farriers</string>
     <string name="sign_up_with_email_sign_up_choice_screen">Sign up with email</string>
     <string name="sign_up_with_google_sign_up_choice_screen">Sign up with google</string>
+    <string name="username_create_login_with_email">Username</string>
+    <string name="username_create_login_with_email">Username</string>
+    <string name="email_create_login_with_email">Email</string>
+    <string name="password_create_login_with_email">Password</string>
+    <string name="re_enter_password_create_login_with_email">Re-enter Password</string>
+    <string name="select_the_option_for_how_you_will_be_using_the_app_create_login_with_email">Select the option for how you will be using the app?</string>
+    <string name="horse_owner_check_box_create_login_with_email">Horse Owner</string>
+    <string name="stabler_check_box_create_login_with_email">Stabler</string>
 </resources>
