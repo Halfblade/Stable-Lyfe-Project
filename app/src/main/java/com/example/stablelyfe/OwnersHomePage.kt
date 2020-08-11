@@ -13,6 +13,7 @@ class OwnersHomePage : AppCompatActivity() {
 
         val buttonMyHorse = findViewById<Button>(R.id.button11)
         val buttonCheckInHorse = findViewById<Button>(R.id.button12)
+        val buttonShopping = findViewById<Button>(R.id.button13)
 
         buttonMyHorse.setOnClickListener {
             val intent = Intent(this, OwnersMyHorse::class.java)
@@ -25,5 +26,13 @@ class OwnersHomePage : AppCompatActivity() {
 
             startActivity(intent)
         }
+
+        buttonShopping.setOnClickListener {
+            val intent = Intent(this, StableLyfeShopping::class.java)
+            
+            startActivity(intent)
+        }
+
+
     }
 }
