@@ -15,6 +15,7 @@ class StablersHomePage : AppCompatActivity() {
         val buttonAddRemoveHorses = findViewById<Button>(R.id.button4)
         val buttonShopping = findViewById<Button>(R.id.button5)
         val buttonTraining = findViewById<Button>(R.id.button6)
+        val buttonFinding = findViewById<Button>(R.id.button7)
 
         buttonMyBarn.setOnClickListener{
             val intent = Intent(this, StablersMyBarnPage::class.java)
@@ -32,12 +33,19 @@ class StablersHomePage : AppCompatActivity() {
 
         buttonShopping.setOnClickListener {
             val intent = Intent(this, StableLyfeShopping::class.java)
-            
+
             startActivity(intent)
         }
 
 
         buttonTraining.setOnClickListener {
+            val intent = Intent(this, StableLyfeTraining::class.java)
+
+            startActivity(intent)
+        }
+
+
+        buttonFinding.setOnClickListener {
             val intent = Intent(this, StableLyfeTraining::class.java)
 
             startActivity(intent)

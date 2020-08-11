@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".StableLyfeTraining"></activity>
+        <activity android:name=".StableLyfeFinding"></activity>
+        <activity android:name=".StableLyfeTraining" />
         <activity android:name=".StableLyfeShopping" />
         <activity android:name=".StablersAddAndRemoveHorses" />
         <activity android:name=".StablersMyBarnPage" />
