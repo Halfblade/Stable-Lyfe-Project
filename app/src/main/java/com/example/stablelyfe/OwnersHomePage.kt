@@ -12,10 +12,16 @@ class OwnersHomePage : AppCompatActivity() {
 
 
         val buttonMyHorse = findViewById<Button>(R.id.button11)
-
+        val buttonCheckInHorse = findViewById<Button>(R.id.button12)
 
         buttonMyHorse.setOnClickListener {
             val intent = Intent(this, OwnersMyHorse::class.java)
+
+            startActivity(intent)
+        }
+
+        buttonCheckInHorse.setOnClickListener {
+            val intent = Intent(this, OwnersCheckInHorse::class.java)
 
             startActivity(intent)
         }
