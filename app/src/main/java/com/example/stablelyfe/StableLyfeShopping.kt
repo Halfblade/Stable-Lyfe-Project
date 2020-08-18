@@ -12,11 +12,17 @@ class StableLyfeShopping : AppCompatActivity() {
         setContentView(R.layout.activity_stable_lyfe_shopping)
 
         val buttonBrowseSaddles = findViewById<Button>(R.id.button16)
-
+        val buttonBrowseSaddlePads = findViewById<Button>(R.id.button17)
 
 
         buttonBrowseSaddles.setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.amazon.com/Equestrian-Saddles/b?ie=UTF8&node=3407621.kh"))
+            startActivity(intent)
+        }
+
+
+        buttonBrowseSaddlePads.setOnClickListener {
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.amazon.com/Equestrian-Saddle-Pads/b?ie=UTF8&node=3407401.kh"))
             startActivity(intent)
         }
     }
