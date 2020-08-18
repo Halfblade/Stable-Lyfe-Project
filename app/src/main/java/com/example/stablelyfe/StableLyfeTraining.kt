@@ -13,10 +13,15 @@ class StableLyfeTraining : AppCompatActivity() {
 
 
         val buttonWesternPleasureTraining = findViewById<Button>(R.id.button21)
-
+        val buttonWesternReiningTraining = findViewById<Button>(R.id.button22)
 
         buttonWesternPleasureTraining.setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.westernhorseuk.com/whuk-blog/western-pleasure-work-out"))
+            startActivity(intent)
+        }
+
+        buttonWesternReiningTraining.setOnClickListener {
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://horse-pros.com/5568/training-exercises-neck-reining"))
             startActivity(intent)
         }
     }
