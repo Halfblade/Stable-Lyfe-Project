@@ -33,4 +33,6 @@
     <string name="browse_grooming_tools_shopping_page">Browse Grooming Tools</string>
     <string name="western_pleasure_training_training_page">Western Pleasure Training</string>
     <string name="western_reining_training_training_page">Western Reining Training</string>
+    <string name="english_dressage_training_training_page">English Dressage Training</string>
+    <string name="english_show_jumping_training_training_page">English Show Jumping Training</string>
 </resources>

@@ -19,28 +19,28 @@ class StableLyfeShopping : AppCompatActivity() {
 
 
         buttonBrowseSaddles.setOnClickListener {
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.amazon.com/Equestrian-Saddles/b?ie=UTF8&node=3407621.kh"))
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.amazon.com/Equestrian-Saddles/b?ie=UTF8&node=3407621"))
             startActivity(intent)
         }
 
 
         buttonBrowseSaddlePads.setOnClickListener {
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.amazon.com/Equestrian-Saddle-Pads/b?ie=UTF8&node=3407401.kh"))
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.amazon.com/Equestrian-Saddle-Pads/b?ie=UTF8&node=3407401"))
             startActivity(intent)
         }
 
         buttonBrowseBits.setOnClickListener {
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.amazon.com/Horse-Bits/s?k=Horse+Bits.kh"))
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.amazon.com/Horse-Bits/s?k=Horse+Bits"))
             startActivity(intent)
         }
 
         buttonBrowseBridles.setOnClickListener {
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.amazon.com/Best-Sellers-Sports-Outdoors-Horse-Bridles-Accessories/zgbs/sporting-goods/3407361.kh"))
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.amazon.com/Best-Sellers-Sports-Outdoors-Horse-Bridles-Accessories/zgbs/sporting-goods/3407361"))
             startActivity(intent)
         }
 
         buttonGroomingTools.setOnClickListener {
-            val intent =  Intent(Intent.ACTION_VIEW, Uri.parse("https://www.amazon.com/Horse-Grooming-Supplies/s?k=Horse+Grooming+Supplies.kh"))
+            val intent =  Intent(Intent.ACTION_VIEW, Uri.parse("https://www.amazon.com/Horse-Grooming-Supplies/s?k=Horse+Grooming+Supplies"))
             startActivity(intent)
         }
     }
