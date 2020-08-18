@@ -16,7 +16,7 @@ class StableLyfeTraining : AppCompatActivity() {
 
 
         buttonWesternPleasureTraining.setOnClickListener {
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.westernhorseuk.com/whuk-blog/western-pleasure-work-out.hk"))
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.westernhorseuk.com/whuk-blog/western-pleasure-work-out"))
             startActivity(intent)
         }
     }
