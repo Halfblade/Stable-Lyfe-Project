@@ -15,6 +15,7 @@ class StableLyfeShopping : AppCompatActivity() {
         val buttonBrowseSaddlePads = findViewById<Button>(R.id.button17)
         val buttonBrowseBits = findViewById<Button>(R.id.button18)
         val buttonBrowseBridles = findViewById<Button>(R.id.button19)
+        val buttonGroomingTools = findViewById<Button>(R.id.button20)
 
 
         buttonBrowseSaddles.setOnClickListener {
@@ -35,6 +36,11 @@ class StableLyfeShopping : AppCompatActivity() {
 
         buttonBrowseBridles.setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.amazon.com/Best-Sellers-Sports-Outdoors-Horse-Bridles-Accessories/zgbs/sporting-goods/3407361.kh"))
+            startActivity(intent)
+        }
+
+        buttonGroomingTools.setOnClickListener {
+            val intent =  Intent(Intent.ACTION_VIEW, Uri.parse("https://www.amazon.com/Horse-Grooming-Supplies/s?k=Horse+Grooming+Supplies.kh"))
             startActivity(intent)
         }
     }

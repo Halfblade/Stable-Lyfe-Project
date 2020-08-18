@@ -49,4 +49,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button18"
         app:layout_constraintVertical_bias="0.138" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="295dp"
+        android:layout_height="80dp"
+        android:text="@string/browse_grooming_tools_shopping_page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button19"
+        app:layout_constraintVertical_bias="0.293" />
 </androidx.constraintlayout.widget.ConstraintLayout>
