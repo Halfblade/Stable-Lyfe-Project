@@ -35,4 +35,6 @@
     <string name="western_reining_training_training_page">Western Reining Training</string>
     <string name="english_dressage_training_training_page">English Dressage Training</string>
     <string name="english_show_jumping_training_training_page">English Show Jumping Training</string>
+    <string name="stable_barn_pic_drawable">TODO</string>
+    <string name="placeholder_pic">TODO</string>
 </resources>
