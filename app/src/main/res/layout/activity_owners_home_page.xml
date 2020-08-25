@@ -18,7 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.205" />
+        app:layout_constraintVertical_bias="0.225" />
 
     <Button
         android:id="@+id/button12"
@@ -31,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button11"
-        app:layout_constraintVertical_bias="0.052" />
+        app:layout_constraintVertical_bias="0.037" />
 
     <Button
         android:id="@+id/button13"
@@ -44,7 +44,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button12"
-        app:layout_constraintVertical_bias="0.065" />
+        app:layout_constraintVertical_bias="0.06" />
 
     <Button
         android:id="@+id/button14"
@@ -57,7 +57,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button13"
-        app:layout_constraintVertical_bias="0.152" />
+        app:layout_constraintVertical_bias="0.074" />
 
     <Button
         android:id="@+id/button15"
@@ -69,7 +69,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button14"
-        app:layout_constraintVertical_bias="0.344" />
+        app:layout_constraintVertical_bias="0.174" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -96,5 +96,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/horselogo" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="438dp"
+        android:layout_height="71dp"
+        android:background="@drawable/bottom_activity_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
