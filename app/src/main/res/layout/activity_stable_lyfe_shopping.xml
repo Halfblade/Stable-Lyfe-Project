@@ -10,54 +10,59 @@
         android:id="@+id/button16"
         android:layout_width="295dp"
         android:layout_height="80dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
         android:text="@string/browse_saddles_shopping_page"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.147" />
+        app:layout_constraintVertical_bias="0.267" />
 
     <Button
         android:id="@+id/button17"
         android:layout_width="295dp"
         android:layout_height="80dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
         android:text="@string/browse_saddle_pads_shopping_page"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button16"
-        app:layout_constraintVertical_bias="0.069" />
+        app:layout_constraintVertical_bias="0.088" />
 
     <Button
         android:id="@+id/button18"
         android:layout_width="295dp"
         android:layout_height="80dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
         android:text="@string/browse_bits_shopping_page"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button17"
-        app:layout_constraintVertical_bias="0.099" />
+        app:layout_constraintVertical_bias="0.102" />
 
     <Button
         android:id="@+id/button19"
         android:layout_width="295dp"
         android:layout_height="80dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
         android:text="@string/browse_bridles_shopping_page"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button18"
-        app:layout_constraintVertical_bias="0.138" />
+        app:layout_constraintVertical_bias="0.15" />
 
     <Button
         android:id="@+id/button20"
         android:layout_width="295dp"
         android:layout_height="80dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
         android:text="@string/browse_grooming_tools_shopping_page"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button19"
-        app:layout_constraintVertical_bias="0.293" />
+        app:layout_constraintVertical_bias="0.373" />
 </androidx.constraintlayout.widget.ConstraintLayout>
