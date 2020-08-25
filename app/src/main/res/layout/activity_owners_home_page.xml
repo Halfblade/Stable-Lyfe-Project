@@ -85,7 +85,7 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="80dp"
+        android:layout_width="84dp"
         android:layout_height="91dp"
         android:contentDescription="@string/placeholder_pic"
         android:scaleType="centerCrop"

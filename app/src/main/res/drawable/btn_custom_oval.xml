@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
 
-    <gradient android:startColor="#bc8f8f" android:endColor="#a52a2a" android:type="linear"/>
+    <gradient android:startColor="#48382A" android:endColor="#371D10" android:type="radial"/>
 
     <corners android:radius="50dp"/>
 
