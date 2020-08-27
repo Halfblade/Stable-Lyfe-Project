@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/home_page_nav">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_page_nav"
+    app:startDestination="@id/ownersHomePage">
 
+    <activity
+        android:id="@+id/ownersHomePage"
+        android:name="com.example.stablelyfe.OwnersHomePage"
+        android:label="activity_owners_home_page"
+        tools:layout="@layout/activity_owners_home_page" />
 </navigation>
