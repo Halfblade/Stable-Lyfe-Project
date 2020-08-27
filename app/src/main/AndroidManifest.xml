@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".StableLifeMessages"></activity>
+        <activity android:name=".StableLyfeMessages"></activity>
+        <activity android:name=".StableLyfeCommunity" />
+        <activity android:name=".StableLifeMessages" />
         <activity android:name=".OwnersCheckInHorse" />
         <activity android:name=".OwnersMyHorse" />
         <activity android:name=".StableLyfeFinding" />

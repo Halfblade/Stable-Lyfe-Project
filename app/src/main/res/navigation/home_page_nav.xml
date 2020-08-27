@@ -4,10 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/home_page_nav"
     app:startDestination="@id/ownersHomePage">
-
     <activity
         android:id="@+id/ownersHomePage"
         android:name="com.example.stablelyfe.OwnersHomePage"
         android:label="activity_owners_home_page"
         tools:layout="@layout/activity_owners_home_page" />
+    <activity
+        android:id="@+id/stableLyfeMessages"
+        android:name="com.example.stablelyfe.StableLyfeMessages"
+        android:label="activity_stable_lyfe_messages"
+        tools:layout="@layout/activity_stable_lyfe_messages" />
+    <activity
+        android:id="@+id/stableLyfeCommunity"
+        android:name="com.example.stablelyfe.StableLyfeCommunity"
+        android:label="activity_stable_lyfe_community"
+        tools:layout="@layout/activity_stable_lyfe_community" />
 </navigation>
