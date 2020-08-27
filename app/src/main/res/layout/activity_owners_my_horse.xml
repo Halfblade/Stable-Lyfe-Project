@@ -7,4 +7,12 @@
     android:background="@drawable/activity_background"
     tools:context=".OwnersMyHorse">
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3A272F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_menu_navi"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
