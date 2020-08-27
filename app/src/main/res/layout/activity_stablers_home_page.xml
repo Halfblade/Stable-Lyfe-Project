@@ -9,8 +9,8 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="305dp"
-        android:layout_height="95dp"
+        android:layout_width="295dp"
+        android:layout_height="80dp"
         android:background="@drawable/btn_custom_oval"
         android:text="@string/my_barn_stablers_home_page"
         android:textSize="30sp"
@@ -18,12 +18,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.059" />
+        app:layout_constraintVertical_bias="0.107" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="305dp"
-        android:layout_height="95dp"
+        android:layout_width="295dp"
+        android:layout_height="80dp"
         android:background="@drawable/btn_custom_oval"
         android:text="@string/add_remove_horses_stablers_home_page"
         android:textSize="25sp"
@@ -31,12 +31,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:layout_constraintVertical_bias="0.082" />
+        app:layout_constraintVertical_bias="0.057" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="305dp"
-        android:layout_height="95dp"
+        android:layout_width="295dp"
+        android:layout_height="80dp"
         android:background="@drawable/btn_custom_oval"
         android:text="@string/shopping_around_stablers_home_page"
         android:textSize="25sp"
@@ -44,12 +44,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4"
-        app:layout_constraintVertical_bias="0.108" />
+        app:layout_constraintVertical_bias="0.073" />
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="305dp"
-        android:layout_height="95dp"
+        android:layout_width="295dp"
+        android:layout_height="80dp"
         android:background="@drawable/btn_custom_oval"
         android:text="@string/training_stablers_home_page"
         android:textSize="35sp"
@@ -57,17 +57,27 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button5"
-        app:layout_constraintVertical_bias="0.171" />
+        app:layout_constraintVertical_bias="0.105" />
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="305dp"
-        android:layout_height="95dp"
+        android:layout_width="295dp"
+        android:layout_height="80dp"
         android:background="@drawable/btn_custom_oval"
         android:text="@string/finding_vets_trainers_farriers_stablers_home_page"
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3A272F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_menu_navi"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
