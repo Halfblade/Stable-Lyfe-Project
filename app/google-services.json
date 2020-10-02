@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "139660503563",
+    "firebase_url": "https://stable-lyfe.firebaseio.com",
+    "project_id": "stable-lyfe",
+    "storage_bucket": "stable-lyfe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139660503563:android:e7cfbeae036b1c6d36f50e",
+        "android_client_info": {
+          "package_name": "com.example.stablelyfe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139660503563-i9223ce9475cbck7pplbjqviqgihbrr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgQ-cLND0XYLsLfg0Jm38CMp_iQB1wblk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139660503563-i9223ce9475cbck7pplbjqviqgihbrr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -14,6 +14,8 @@ class CreateLoginWithEmail : AppCompatActivity() {
         val buttonSignUpWithEmail = findViewById<Button>(R.id.button10)
 
 
+
+
         buttonSignUpWithEmail.setOnClickListener{
             val intent = Intent(this, OwnersHomePage::class.java)
 
