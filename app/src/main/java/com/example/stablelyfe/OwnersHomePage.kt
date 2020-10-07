@@ -16,7 +16,7 @@ class OwnersHomePage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_owners_home_page)
 
-        //mAuth = FirebaseAuth.getInstance();
+
         auth = FirebaseAuth.getInstance();
 
 
