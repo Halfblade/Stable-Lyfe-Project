@@ -11,9 +11,11 @@ import androidx.annotation.NonNull
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
 
 class CreateLoginWithEmail : AppCompatActivity() {
     private lateinit var auth : FirebaseAuth
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_create_login_with_email)
@@ -27,14 +29,14 @@ class CreateLoginWithEmail : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
 
-        mUserName.toString().trim()
+
 
 
         buttonSignUpWithEmail.setOnClickListener {
-            val intent = Intent(this, OwnersHomePage::class.java)
+            val intent = Intent(this, StablersHomePage::class.java)
             val username = mUserName.toString().trim()
-            val email = mEmail.toString().trim()
-            val password = mPassword.toString().trim()
+            val email = mEmail.text.toString().trim()
+            val password = mPassword.text.toString().trim()
             val verifypassword = verifyPassword.toString().trim()
 
             if (TextUtils.isEmpty(email)) {
@@ -53,12 +55,11 @@ class CreateLoginWithEmail : AppCompatActivity() {
 
                         startActivity(intent)
                     } else {
-                        startActivity(intent)
+
 
                     }
-
-
                 }
+
         }
     }
 }

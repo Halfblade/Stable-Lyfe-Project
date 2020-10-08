@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         auth = FirebaseAuth.getInstance()
 
         val buttonLogin = findViewById<Button>(R.id.button)
@@ -23,8 +24,8 @@ class MainActivity : AppCompatActivity() {
 
         buttonLogin.setOnClickListener {
             val intent = Intent(this, StablersHomePage::class.java)
-            val email = mEmail.toString().trim()
-            val password = mPassword.toString().trim()
+            val email = mEmail.text.toString().trim()
+            val password = mPassword.text.toString().trim()
 
             if (TextUtils.isEmpty(email)) {
                 mEmail.error = "Email is Required"
@@ -39,6 +40,7 @@ class MainActivity : AppCompatActivity() {
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
                         // Sign in success
+
                         startActivity(intent)
 
                     } else {
