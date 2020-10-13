@@ -3,5 +3,5 @@
 
     <item android:title="My Home" android:icon="@drawable/ic_home" />
     <item android:title="Messages" android:icon="@drawable/ic_messages" />
-    <item android:title="Community" android:icon="@drawable/ic_community" />
+    <item android:title="Calender" android:icon="@drawable/calendar" />
 </menu>

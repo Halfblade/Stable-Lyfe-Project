@@ -47,4 +47,8 @@
     <string name="horse_icon_3">horse icon 3</string>
     <string name="horse_icon_4">horse icon 4</string>
     <string name="horse_icon_5">horse icon 5</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="calender_frag">calenderFrag</string>
+    <string name="calender_photo">calender photo</string>
 </resources>
