@@ -12,9 +12,11 @@ import com.google.android.gms.tasks.OnCompleteListener
 import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
+import com.google.firebase.database.FirebaseDatabase
 
 class CreateLoginWithEmail : AppCompatActivity() {
     private lateinit var auth : FirebaseAuth
+    private lateinit var data : FirebaseDatabase
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,6 +31,7 @@ class CreateLoginWithEmail : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
 
+        data = FirebaseDatabase.getInstance()
 
 
 
@@ -42,6 +45,7 @@ class CreateLoginWithEmail : AppCompatActivity() {
             if (TextUtils.isEmpty(username)){
                 mUserName.error = "Username is Required"
             }
+
             if (TextUtils.isEmpty(email)) {
                 mEmail.error = "Email is Required"
 
@@ -55,6 +59,10 @@ class CreateLoginWithEmail : AppCompatActivity() {
                 verifyPassword.error = "Please re enter the password"
             }
 
+            if (password != verifypassword){
+                mPassword.error = "Passwords do not match"
+            }
+
 
             auth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this) { task ->
@@ -63,7 +71,7 @@ class CreateLoginWithEmail : AppCompatActivity() {
                         startActivity(intent)
                     } else {
 
-
+                        mEmail.error = "This email is already active"
                     }
                 }
 
