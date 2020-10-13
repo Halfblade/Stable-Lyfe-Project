@@ -41,4 +41,10 @@
     <string name="add_horse">Add Horse</string>
     <string name="number_of_horses">5/5</string>
     <string name="horses_for_num_of">Horses</string>
+    <string name="horse_icon">horseicon</string>
+    <string name="check_box_for_horse_1">check box for horse 1</string>
+    <string name="horse_icon_2">horse icon 2</string>
+    <string name="horse_icon_3">horse icon 3</string>
+    <string name="horse_icon_4">horse icon 4</string>
+    <string name="horse_icon_5">horse icon 5</string>
 </resources>
