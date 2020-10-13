@@ -34,11 +34,14 @@ class CreateLoginWithEmail : AppCompatActivity() {
 
         buttonSignUpWithEmail.setOnClickListener {
             val intent = Intent(this, StablersHomePage::class.java)
-            val username = mUserName.toString().trim()
+            val username = mUserName.text.toString().trim()
             val email = mEmail.text.toString().trim()
             val password = mPassword.text.toString().trim()
-            val verifypassword = verifyPassword.toString().trim()
+            val verifypassword = verifyPassword.text.toString().trim()
 
+            if (TextUtils.isEmpty(username)){
+                mUserName.error = "Username is Required"
+            }
             if (TextUtils.isEmpty(email)) {
                 mEmail.error = "Email is Required"
 
@@ -46,6 +49,10 @@ class CreateLoginWithEmail : AppCompatActivity() {
             if (TextUtils.isEmpty(password)) {
                 mPassword.error = "Password is Required"
 
+            }
+
+            if (TextUtils.isEmpty(verifypassword)){
+                verifyPassword.error = "Please re enter the password"
             }
 
 
