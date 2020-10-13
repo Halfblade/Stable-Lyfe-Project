@@ -38,4 +38,7 @@
     <string name="stable_barn_pic_drawable">TODO</string>
     <string name="placeholder_pic">TODO</string>
     <string name="selectall">CheckBox</string>
+    <string name="add_horse">Add Horse</string>
+    <string name="number_of_horses">5/5</string>
+    <string name="horses_for_num_of">Horses</string>
 </resources>
