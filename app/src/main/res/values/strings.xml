@@ -51,4 +51,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="calender_frag">calenderFrag</string>
     <string name="calender_photo">calender photo</string>
+    <string name="check_box_for_horse_2">check box for horse 2</string>
+    <string name="check_box_for_horse_3">check box for horse 3</string>
+    <string name="check_box_for_horse_4">check box for horse 4</string>
+    <string name="check_box_for_horse_5">check box for horse 5</string>
 </resources>

@@ -12,7 +12,7 @@
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="match_parent"
-        android:layout_height="163dp"
+        android:layout_height="133dp"
         android:contentDescription="@string/calender_photo"
         android:cropToPadding="false"
         android:fitsSystemWindows="false"
@@ -21,6 +21,10 @@
 
     <CalendarView
         android:id="@+id/calendarView"
-        android:layout_width="wrap_content"
-        android:layout_height="321dp" />
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bottom_activity_bar"
+
+        />
 </FrameLayout>

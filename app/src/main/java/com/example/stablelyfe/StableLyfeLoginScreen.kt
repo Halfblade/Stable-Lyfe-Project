@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         val mPassword = findViewById<EditText>(R.id.editTextTextPassword)
 
         buttonLogin.setOnClickListener {
-            val intent = Intent(this, StablersHomePage::class.java)
+            val intent = Intent(this, OwnersHomePage::class.java)
             val email = mEmail.text.toString().trim()
             val password = mPassword.text.toString().trim()
 
