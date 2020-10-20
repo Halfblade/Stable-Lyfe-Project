@@ -10,6 +10,10 @@ class StableLyfeTraining : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_stable_lyfe_training)
+        try {
+            this.supportActionBar!!.hide()
+        } catch (e: NullPointerException) {
+        }
 
 
         val buttonWesternPleasureTraining = findViewById<Button>(R.id.button21)

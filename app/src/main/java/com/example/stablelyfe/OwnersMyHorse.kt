@@ -10,7 +10,10 @@ class OwnersMyHorse : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_owners_my_horse)
-
+        try {
+            this.supportActionBar!!.hide()
+        } catch (e: NullPointerException) {
+        }
 
         val checkboxSelectAll = findViewById<CheckBox>(R.id.checkBox4)
         val checkboxHorse1 = findViewById<CheckBox>(R.id.checkBox5)

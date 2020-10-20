@@ -9,6 +9,10 @@ class SignUpChoiceScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up_choice_screen)
+        try {
+            this.supportActionBar!!.hide()
+        } catch (e: NullPointerException) {
+        }
 
         val buttonLoginWithEmail = findViewById<Button>(R.id.button8)
 

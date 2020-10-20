@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         buttonSignUp.setOnClickListener{
-            val intent = Intent(this, SignUpChoiceScreen::class.java)
+            val intent = Intent(this, StablersHomePage::class.java)
 
             startActivity(intent)
         }

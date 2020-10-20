@@ -55,4 +55,6 @@
     <string name="check_box_for_horse_3">check box for horse 3</string>
     <string name="check_box_for_horse_4">check box for horse 4</string>
     <string name="check_box_for_horse_5">check box for horse 5</string>
+    <string name="primary_care_mass_messaging">Primary Care</string>
+    <string name="speciality_care_mass_messaging">Speciality Care</string>
 </resources>

@@ -9,6 +9,10 @@ class StablersHomePage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_stablers_home_page)
+        try {
+            this.supportActionBar!!.hide()
+        } catch (e: NullPointerException) {
+        }
 
 
         val buttonMyBarn = findViewById<Button>(R.id.button3)

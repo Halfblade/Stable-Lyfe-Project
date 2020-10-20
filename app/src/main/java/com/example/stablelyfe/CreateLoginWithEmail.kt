@@ -21,7 +21,10 @@ class CreateLoginWithEmail : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_create_login_with_email)
-
+        try {
+            this.supportActionBar!!.hide()
+        } catch (e: NullPointerException) {
+        }
 
         val buttonSignUpWithEmail = findViewById<Button>(R.id.button10)
         val mUserName = findViewById<EditText>(R.id.editTextTextPersonName)

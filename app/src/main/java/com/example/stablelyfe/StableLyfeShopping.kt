@@ -10,6 +10,10 @@ class StableLyfeShopping : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_stable_lyfe_shopping)
+        try {
+            this.supportActionBar!!.hide()
+        } catch (e: NullPointerException) {
+        }
 
         val buttonBrowseSaddles = findViewById<Button>(R.id.button16)
         val buttonBrowseSaddlePads = findViewById<Button>(R.id.button17)
