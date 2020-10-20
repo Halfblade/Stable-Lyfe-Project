@@ -28,6 +28,11 @@ class StablersMyBarnPage : AppCompatActivity() {
 
         val buttonMassPrimaryCare = findViewById<Button>(R.id.button27)
         val buttonMassSpecialityCare = findViewById<Button>(R.id.button30)
+        val buttonMessaging1 = findViewById<Button>(R.id.button33)
+        val buttonMessaging2 = findViewById<Button>(R.id.button34)
+        val buttonMessaging3 = findViewById<Button>(R.id.button35)
+        val buttonMessaging4 = findViewById<Button>(R.id.button36)
+        val buttonMessaging5 = findViewById<Button>(R.id.button37)
 
         buttonSpecialNotes1.setOnClickListener {
             val intent = Intent(this, SpecialNotesFragment::class.java)
@@ -53,15 +58,43 @@ class StablersMyBarnPage : AppCompatActivity() {
         }
 
 
-
+/////////////////////////////////Primary and Speciality Mass Messaging//////////////////////////////
         buttonMassPrimaryCare.setOnClickListener {
             val intent = Intent(this, PrimaryCareFragment::class.java)
+            startActivity(intent)
 
         }
 
         buttonMassSpecialityCare.setOnClickListener {
             val intent = Intent(this, SpecialityCareFragment::class.java)
+            startActivity(intent)
 
+        }
+
+
+
+        ////////////////////Messaging Fragment////////////////////////////////////
+
+        buttonMessaging1.setOnClickListener {
+            val intent = Intent(this, SpecialityCareFragment::class.java)
+            startActivity(intent)
+        }
+
+        buttonMessaging2.setOnClickListener {
+            val intent = Intent(this, SpecialityCareFragment::class.java)
+            startActivity(intent)
+        }
+        buttonMessaging3.setOnClickListener {
+            val intent = Intent(this, SpecialityCareFragment::class.java)
+            startActivity(intent)
+        }
+        buttonMessaging4.setOnClickListener {
+            val intent = Intent(this, SpecialityCareFragment::class.java)
+            startActivity(intent)
+        }
+        buttonMessaging5.setOnClickListener {
+            val intent = Intent(this, SpecialityCareFragment::class.java)
+            startActivity(intent)
         }
     }
 
