@@ -1,5 +1,6 @@
 package com.example.stablelyfe
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -18,21 +19,26 @@ class StablersMyBarnPage : AppCompatActivity() {
         val buttonSpecialNotes5 = findViewById<Button>(R.id.button32)
 
         buttonSpecialNotes1.setOnClickListener {
-            
+            val intent = Intent(this, StablersHomePage::class.java)
+            startActivity(intent)
         }
 
         buttonSpecialNotes2.setOnClickListener {
-
+            val intent = Intent(this, StablersHomePage::class.java)
+            startActivity(intent)
         }
 
         buttonSpecialNotes3.setOnClickListener {
-
+            val intent = Intent(this, StablersHomePage::class.java)
+            startActivity(intent)
         }
         buttonSpecialNotes4.setOnClickListener {
-
+            val intent = Intent(this, StablersHomePage::class.java)
+            startActivity(intent)
         }
         buttonSpecialNotes5.setOnClickListener {
-
+            val intent = Intent(this, StablersHomePage::class.java)
+            startActivity(intent)
         }
     }
 
