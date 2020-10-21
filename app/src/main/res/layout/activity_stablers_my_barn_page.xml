@@ -275,12 +275,12 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
-        android:layout_width="81dp"
-        android:layout_height="29dp"
+        android:layout_width="115dp"
+        android:layout_height="36dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Angelica Pickles"
-        android:textSize="8sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/divider2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.022"
@@ -303,12 +303,12 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
-        android:layout_width="39dp"
-        android:layout_height="39dp"
+        android:layout_width="49dp"
+        android:layout_height="37dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Cynthia"
-        android:textSize="8sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/divider2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.026"
@@ -331,12 +331,12 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName7"
-        android:layout_width="63dp"
-        android:layout_height="38dp"
+        android:layout_width="111dp"
+        android:layout_height="36dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Marty Grabstein"
-        android:textSize="8sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/divider3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.02"
@@ -359,12 +359,12 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName8"
-        android:layout_width="42dp"
-        android:layout_height="38dp"
+        android:layout_width="48dp"
+        android:layout_height="39dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Courage"
-        android:textSize="8sp"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="@+id/divider3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.027"
@@ -387,19 +387,19 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName11"
-        android:layout_width="81dp"
-        android:layout_height="33dp"
+        android:layout_width="96dp"
+        android:layout_height="36dp"
         android:layout_marginStart="20dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Samuel Vincent"
-        android:textSize="8sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/divider4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/divider3"
-        app:layout_constraintVertical_bias="0.191" />
+        app:layout_constraintVertical_bias="0.2" />
 
     <TextView
         android:id="@+id/textView16"
@@ -421,7 +421,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Edd"
-        android:textSize="8sp"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="@+id/divider4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.408"
@@ -444,18 +444,18 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName15"
-        android:layout_width="66dp"
-        android:layout_height="29dp"
+        android:layout_width="91dp"
+        android:layout_height="37dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Akira Toriyama"
-        android:textSize="8sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/divider5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/divider4"
-        app:layout_constraintVertical_bias="0.223" />
+        app:layout_constraintVertical_bias="0.264" />
 
     <TextView
         android:id="@+id/textView20"
@@ -473,12 +473,12 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName16"
-        android:layout_width="30dp"
+        android:layout_width="33dp"
         android:layout_height="35dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Goku"
-        android:textSize="8sp"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="@+id/divider5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.404"
@@ -501,18 +501,18 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName19"
-        android:layout_width="92dp"
-        android:layout_height="30dp"
+        android:layout_width="106dp"
+        android:layout_height="37dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Genndy Tartakovsky"
-        android:textSize="8sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/divider5"
-        app:layout_constraintVertical_bias="0.19" />
+        app:layout_constraintVertical_bias="0.16" />
 
     <TextView
         android:id="@+id/textView24"
@@ -529,12 +529,12 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName20"
-        android:layout_width="34dp"
-        android:layout_height="31dp"
+        android:layout_width="37dp"
+        android:layout_height="32dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Dexter"
-        android:textSize="8sp"
+        android:textSize="10sp"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.408"
@@ -608,7 +608,7 @@
         android:text="Special Notes"
         app:layout_constraintBottom_toTopOf="@+id/divider2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintHorizontal_bias="0.636"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/divider"
         app:layout_constraintVertical_bias="0.916" />
@@ -620,7 +620,7 @@
         android:text="Special Notes  2"
         app:layout_constraintBottom_toTopOf="@+id/divider3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.616"
+        app:layout_constraintHorizontal_bias="0.644"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider2"
         app:layout_constraintVertical_bias="0.908" />
@@ -633,7 +633,7 @@
         android:text="Special Notes    3"
         app:layout_constraintBottom_toTopOf="@+id/divider4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.618"
+        app:layout_constraintHorizontal_bias="0.652"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/divider3"
         app:layout_constraintVertical_bias="0.7" />
@@ -645,22 +645,22 @@
         android:text="Special Notes   4"
         app:layout_constraintBottom_toTopOf="@+id/divider5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintHorizontal_bias="0.651"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider4"
         app:layout_constraintVertical_bias="0.915" />
 
     <TextView
         android:id="@+id/textView30"
-        android:layout_width="97dp"
+        android:layout_width="98dp"
         android:layout_height="19dp"
         android:text="Special Notes   5"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintHorizontal_bias="0.649"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider5"
-        app:layout_constraintVertical_bias="0.863" />
+        app:layout_constraintVertical_bias="0.849" />
 
     <Button
         android:id="@+id/button33"

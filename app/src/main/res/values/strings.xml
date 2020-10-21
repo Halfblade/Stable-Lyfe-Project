@@ -1,4 +1,11 @@
 <resources>
+    <string-array name="Horse_inDropMenu">
+        <item>Amos</item>
+        <item>Bud</item>
+        <item>Arabia</item>
+        <item>Jerry</item>
+        <item>New Horse</item>
+    </string-array>
     <string name="app_name">Stable Lyfe</string>
     <string name="stable_lyfe_logo_login_screen">Stable Lyfe</string>
     <string name="email_address_login_screen">Email Address</string>
@@ -58,6 +65,7 @@
     <string name="primary_care_mass_messaging">Primary Care</string>
     <string name="speciality_care_mass_messaging">Speciality Care</string>
     <string name="large_text">
+
         "Material is the metaphor.\n\n"
 
         "A material metaphor is the unifying theory of a rationalized space and a system of motion."

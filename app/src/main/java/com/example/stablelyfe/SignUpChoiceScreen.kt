@@ -15,10 +15,16 @@ class SignUpChoiceScreen : AppCompatActivity() {
         }
 
         val buttonLoginWithEmail = findViewById<Button>(R.id.button8)
-
+        val buttonLoginWithGoogle = findViewById<Button>(R.id.button9)
 
         buttonLoginWithEmail.setOnClickListener{
-            val intent = Intent(this, CreateLoginWithEmail::class.java)
+            val intent = Intent(this, StablersHomePage::class.java)
+
+            startActivity(intent)
+        }
+
+        buttonLoginWithGoogle.setOnClickListener {
+            val intent = Intent(this, OwnersHomePage::class.java)
 
             startActivity(intent)
         }
